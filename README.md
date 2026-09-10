@@ -69,10 +69,3 @@ robô trader quantitativo e comprovar seu desempenho com backtests rigorosos.
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
-## 📊 GitHub
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Cerqueira11&show_icons=true&hide_border=true&count_private=true&theme=default" alt="GitHub Stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cerqueira11&layout=compact&hide_border=true&theme=default" alt="Top Languages"/>
-</p>
