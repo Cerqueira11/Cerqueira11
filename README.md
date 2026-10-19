@@ -20,12 +20,12 @@ Estudante de **Sistemas de Informação na USP**, resolvo problemas complexos at
 ## 🏆 Projetos e Desafios em Destaque
 
 ### ⚡ Hackathon QI Tech 2026: Risk Solutions (Grupo Destaque)
-Motor de decisão antifraude transacional as a Service para Pix, projetado para resposta em tempo real (< 500 ms), com inteligência de redes/grafos e fricção cirúrgica com falso-positivo mínimo.
+<a href="https://github.com/Cerqueira11/hacka_qitech_eachismo"><strong>Motor Antifraude Pix →</strong></a>
 
-<a href="https://github.com/Cerqueira11/hacka_qitech_eachismo"><strong>hacka_qitech_eachismo →</strong></a>
-* **Pipeline determinístico em 7 etapas**: Validação semântica estrita, consultas externas fora da trava para evitar contenção e lock pessimista atômico (`pg_advisory_xact_lock`) na conta de origem contra rajadas e *race-conditions*.
-* **Inteligência de Grafos & Rede Relacional**: Detecção de "vizinhança suja" via busca em largura (BFS até $K=3$ saltos), decaimento exponencial temporal ($\tau = 30$ dias) e penalidade logarítmica de hubs para não penalizar contas legítimas de alto giro (varejo/folha).
-* **Fusão de Risco Probabilística (Noisy-OR)**: Combinação independente de 9 famílias de regras (Velocity, Desvio Noturno, Viagem Impossível, DICT/Societário, Log-Normal $Z$-Score), incorporando regra de recorrência (R7) para conceder desconto de fricção a pagamentos habituais.
+Motor transacional em tempo real (< 500 ms) com pipeline determinístico, mitigando concorrência e *race-conditions* em rajadas via `pg_advisory_xact_lock` no PostgreSQL.
+
+* **Inteligência de Grafos**: Detecção de vizinhança suspeita via BFS ($K=3$ saltos) com decaimento temporal e penalidade logarítmica para não penalizar hubs legítimos de alto giro (folha e varejo).
+* **Fusão Probabilística (Noisy-OR)**: Avaliação independente de 9 famílias de regras de risco com desconto cirúrgico de fricção para pagamentos recorrentes habituais.
 
 ---
 
