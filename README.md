@@ -15,10 +15,7 @@
 
 ---
 
-Estudante de **Sistemas de Informação na USP**, resolvo problemas complexos
-através de código, desde a modelagem de bancos de dados relacionais e sistemas concorrentes
-até o desenvolvimento de pipelines analíticos, grafos e algoritmos preditivos. Interesse
-especial na interseção entre engenharia de software de baixa latência e finanças/risco.
+Estudante de **Sistemas de Informação na USP**, resolvo problemas complexos através de código, desde a modelagem de bancos de dados relacionais e sistemas concorrentes até o desenvolvimento de pipelines de dados, grafos e modelos de Machine Learning. Interesse especial na interseção entre engenharia de software, inteligência artificial e segurança aplicada a risco e mercado financeiro.
 
 ## 🏆 Projetos e Desafios em Destaque
 
